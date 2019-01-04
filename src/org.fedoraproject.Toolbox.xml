@@ -1,0 +1,12 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+  <interface name="org.fedoraproject.Toolbox.Manager">
+    <method name="Start">
+      <arg direction="in" type="s" name="name"/>
+    </method>
+    <method name="Stop">
+      <arg direction="in" type="s" name="name"/>
+    </method>
+  </interface>
+</node>
